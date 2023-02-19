@@ -2,10 +2,10 @@
 
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Next.js Starter Blog',
-  author: 'Tails Azimuth',
-  headerTitle: 'TailwindBlog',
-  description: 'A blog created with Next.js and Tailwind.css',
+  title: 'NewzSup',
+  author: '',
+  headerTitle: '',
+  description: '',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
@@ -20,6 +20,7 @@ const siteMetadata = {
   youtube: 'https://youtube.com',
   linkedin: 'https://www.linkedin.com',
   locale: 'en-US',
+  welcome: "hello world",
   analytics: {
     // If you want to use an analytics provider you have to add it to the
     // content security policy in the `next.config.js` file.
