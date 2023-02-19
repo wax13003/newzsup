@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-}
-
-module.exports = nextConfig
-=======
 const { withContentlayer } = require('next-contentlayer')
 
 const withBundleAnalyzer = require('@next/bundle-analyzer')({
@@ -91,4 +83,3 @@ module.exports = () => {
     },
   })
 }
->>>>>>> 2d70b5b (Initial commit from Create Next App)
