@@ -4,6 +4,7 @@ import Logo from '@/data/logo.svg'
 import Link from './Link'
 import MobileNav from './MobileNav'
 import ThemeSwitch from './ThemeSwitch'
+import { Login } from "../components/Login";
 
 const Header = () => {
   return (
@@ -39,6 +40,7 @@ const Header = () => {
         <ThemeSwitch />
         <MobileNav />
       </div>
+      <Login/>
     </header>
   )
 }
